@@ -58,7 +58,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": " node server.js",
     "build": "next build",
-    "start": "next start -p $PORT",
+    "start": "node server.js",
     "deploy-staging": "NODE_ENV=staging next build &&    NODE_ENV=staging node ./server.js",
     "deploy-production": "NODE_ENV=production next build && NODE_ENV=production node ./server.js"
   },
