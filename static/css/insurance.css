@@ -1,0 +1,27 @@
+
+.landing{
+   
+    background: url("../image/ins.png") #381172 0% 30% no-repeat!important;
+    background-size: 300px 100px;
+}
+
+.landing.segment{
+    
+    min-height: 500px;
+    padding: 0em 0em;
+    
+}
+.text-block {
+    position: absolute;
+    /* font-family: "Courier New", Courier, monospace; */
+    font-size: x-large;
+    top: 180px;
+    left: 210px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-block.b {
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+
+.landing{
+
+    background: url("../image/home-banner.png") #103d50 70% 30% no-repeat!important;
+}
+
+.landing.segment{
+    min-height: 600px;
+    padding: 0em 0em;
+    
+}
+.text-block {
+    position: absolute;
+    font-family: "Courier New", Courier, monospace;
+    top: 240px;
+    left: 210px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-block.b {
+    font-weight: bold;
+}

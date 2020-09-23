@@ -1,0 +1,27 @@
+
+
+.transbg {
+    min-height: 500 px;
+    background: rgba(68,38,110,1);
+    /* rgba(32, 154, 189, 0.655) ; */
+}
+
+.menu{
+    border:0px!important;
+
+}
+
+ h1{
+    margin-top: 4.2em;
+    /* margin-bottom: 0.11em; */
+    font-weight: 100;
+    
+}
+
+.purposeOne {
+    background-color: #5B3197;
+}
+
+.purposeTwo {
+    background-color: #8255BC;
+}
