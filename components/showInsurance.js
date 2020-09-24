@@ -206,17 +206,6 @@ export class showInsurance extends Component {
         return;
       }
 
-      if (!isDoctor) {
-        this.setState({
-          modalHeader: "Error",
-          modalContent: "You are Not Authorized",
-          modalIconColor: "red",
-          modalIconName: "cancel",
-          isModalOpen: true,
-        });
-        this.setState({ newRequestFormLoading: false });
-        return;
-      } else {
         try {
           const address1 = new web3.eth.Contract(
             ins.abi,
@@ -236,7 +225,7 @@ export class showInsurance extends Component {
           });
           return;
         }
-      }
+      
       this.refreshData();
       this.setState({ newRequestFormLoading: false });
       this.setState({
