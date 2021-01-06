@@ -9,7 +9,7 @@
     "aadhaar-validator": "^1.1.0",
     "archiver": "^3.1.1",
     "aws-sdk": "^2.669.0",
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "babel-runtime": "^6.26.0",
     "cors": "^2.8.5",
     "css-loader": "^3.4.1",
